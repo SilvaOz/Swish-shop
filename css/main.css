@@ -15,13 +15,11 @@ header {
   }
   header nav ul {
     display: flex;
+    margin-left: -2rem;
     justify-content: center;
     list-style: none;
     color: black;
-    
-    
-
-  }
+    }
 
 .status {
     font-size: 1rem;
@@ -32,7 +30,6 @@ header {
     font-family: 'Slabo 27px', serif;
     margin-top: 4px;
   }
-
 
 a,
 a:link {
@@ -55,7 +52,11 @@ a:link {
 }
 
 .five {
-    padding: .5rem;
+    height: 20px;
+  text-align: center;  
+  vertical-align: middle;
+  padding: .5rem;
+  width: 8px;
   border: 1px orange solid;
   border-radius: 50%;
 }
