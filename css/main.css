@@ -60,7 +60,7 @@ a:link {
 }
 
 .five {
-    
+
     font-size: 1.5rem;
     height: 28px;
     width: 8px;
@@ -71,21 +71,52 @@ a:link {
     padding-right: 13px;
     padding-left: 13px;
     padding-top: 4px;
-} 
-h3{
+}
+
+h3 {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.search{
+
+.search {
     display: flex;
     justify-content: center;
 }
-.search input{
+
+.search input {
     text-align: right;
     display: flex;
     line-height: 10px;
     font-size: 1rem;
-    
 
+
+}
+
+main {
+    width: 100vw;
+    height: 85vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.card {
+    width: 15rem;
+    height: 10rem;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: yellow;
+    width: 8rem;
+    height: 2rem;
 }
