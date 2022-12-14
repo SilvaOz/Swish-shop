@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Pacifico&display=swap');
 
 body {
@@ -99,7 +100,9 @@ main {
 
 .card {
     width: 15rem;
-    height: 10rem;
+
+   height: 10rem;
+
     font-size: 2em;
     display: flex;
     flex-direction: column;
