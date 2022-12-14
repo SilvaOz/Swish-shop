@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+}
+
+main {
+    width: 100vw;
+    height: 85vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.card {
+    width: 15rem;
+   height: 10rem;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: yellow;
+    width: 8rem;
+    height: 2rem;
+}
