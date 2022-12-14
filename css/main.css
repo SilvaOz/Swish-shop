@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
-  }
+}
   header nav {
     font-weight: 100;
     flex-grow: 2;
@@ -29,7 +29,8 @@ header {
     right: 0.3rem;
     font-family: 'Slabo 27px', serif;
     margin-top: 4px;
-  }
+
+}
 
 a,
 a:link {
@@ -43,20 +44,71 @@ a:link {
 .all a:link{
     color: lightgray;
 }
+
 .logo {
     font-family: 'Caveat', cursive;
     color: red;
     flex-grow: 1;
     font-weight: 900;
     font-size: 2rem;
+    margin: 15px;
 }
 
 .five {
-    height: 20px;
-  text-align: center;  
-  vertical-align: middle;
-  padding: .5rem;
-  width: 8px;
-  border: 1px orange solid;
-  border-radius: 50%;
+    font-size: 1.5rem;
+    height: 28px;
+    width: 8px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid orange;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 4px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    text-align: right;
+    display: flex;
+    line-height: 10px;
+    font-size: 1rem;
+}
+
+main {
+    width: 100vw;
+    height: 85vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.card {
+    width: 15rem;
+    height: 10rem;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: yellow;
+    width: 8rem;
+    height: 2rem;
 }
