@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav {
+    font-weight: 100;
+    flex-grow: 2;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    margin-left: -6rem;
+    justify-content: center;
+    list-style: none;
+    color: black;
+
+
+
+}
+
+.status {
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: 0.3rem;
+    right: 0.3rem;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 4px;
+}
+
+
+a,
+a:link {
+    height: 0;
+    margin: 0 3px;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+.all a:link {
+    color: darkgray;
+}
+
+.logo {
+    font-family: 'Caveat', cursive;
+    color: red;
+    flex-grow: 1;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 15px;
+}
+
+.five {
+    
+    font-size: 1.5rem;
+    height: 28px;
+    width: 8px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid orange;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 4px;
+} 
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    text-align: right;
+    display: flex;
+    line-height: 10px;
+    font-size: 1rem;
+    
+
+}
