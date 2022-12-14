@@ -8,23 +8,18 @@ header {
     display: flex;
     justify-content: flex-end;
 }
-
-header nav {
+  header nav {
     font-weight: 100;
     flex-grow: 2;
     text-decoration: none;
-}
-
-header nav ul {
+  }
+  header nav ul {
     display: flex;
-    margin-left: -6rem;
+    margin-left: -2rem;
     justify-content: center;
     list-style: none;
     color: black;
-
-
-
-}
+    }
 
 .status {
     font-size: 1rem;
@@ -34,8 +29,8 @@ header nav ul {
     right: 0.3rem;
     font-family: 'Slabo 27px', serif;
     margin-top: 4px;
-}
 
+}
 
 a,
 a:link {
@@ -46,8 +41,8 @@ a:link {
     color: black;
 }
 
-.all a:link {
-    color: darkgray;
+.all a:link{
+    color: lightgray;
 }
 
 .logo {
@@ -60,7 +55,6 @@ a:link {
 }
 
 .five {
-
     font-size: 1.5rem;
     height: 28px;
     width: 8px;
@@ -89,8 +83,6 @@ h3 {
     display: flex;
     line-height: 10px;
     font-size: 1rem;
-
-
 }
 
 main {
