@@ -36,6 +36,7 @@ header nav li {
 }
 header nav li a {
     font-family: 'Oswald', sans-serif;
+}
 
   header nav {
     font-weight: 100;
@@ -74,7 +75,7 @@ a:link {
     text-decoration: none;
 }
 
-header nav li a:hover {
+header nav li a:hover {}
 
 
 .all a:link{
@@ -97,7 +98,7 @@ header .status {
 }
 header .five {
     margin: 0;
-
+}
 
 .five {
 
