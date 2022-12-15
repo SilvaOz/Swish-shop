@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
@@ -6,7 +7,7 @@ body {
     font-family: sans-serif;
     box-sizing: border-box;
 }
-/* ----------------------------HEADER-------- */
+
 header {
     display: flex;
     justify-content: center;
@@ -17,6 +18,7 @@ header .logo {
     flex-grow: 1;
     font-size: 3.5rem;
 }
+
 header nav {
     flex-grow: 2;
 }
@@ -34,14 +36,57 @@ header nav li {
 }
 header nav li a {
     font-family: 'Oswald', sans-serif;
+
+  header nav {
+    font-weight: 100;
+    flex-grow: 2;
+    text-decoration: none;
+  }
+  header nav ul {
+    display: flex;
+    margin-left: -2rem;
+    justify-content: center;
+    list-style: none;
+    color: black;
+    }
+
+.status {
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: 0.3rem;
+    right: 0.3rem;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 4px;
+
+}
+
+a,
+a:link {
+    height: 0;
+    margin: 0 3px;
+    text-decoration: none;
+    font-size: small;
+
     color: black;
     font-weight: bold;
     width: 100px;
     text-decoration: none;
 }
+
 header nav li a:hover {
+
+
+.all a:link{
+    color: lightgray;
+}
+
+.logo {
+    font-family: 'Caveat', cursive;
+
     color: red;
 }
+
 header .status {
     font-weight: bold;
     position: relative;
@@ -52,6 +97,10 @@ header .status {
 }
 header .five {
     margin: 0;
+
+
+.five {
+
     font-size: 1.5rem;
     height: 30px;
     width: 8px;
@@ -81,12 +130,18 @@ h1 {
 }
 .search input {
     text-align: right;
+
     display: flex;   
     font-size: 1.3rem;
     width: 25rem;
     border-right: none;
     border-left: none;
     border-top: none;  
+
+    display: flex;
+    line-height: 10px;
+    font-size: 1rem;
+
 }
 ::placeholder{
     color: red;
@@ -99,8 +154,13 @@ h1 {
     margin: 1.5rem 20rem;
 }
 .card {
-    width: 10rem;
-    height: 10rem;
+
+    width: 15rem;
+
+   height: 10rem;
+
+    font-size: 2em;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
