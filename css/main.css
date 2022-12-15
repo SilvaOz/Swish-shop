@@ -1,117 +1,131 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 body {
-    margin: 0;
+    margin: 20px;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
-
+/* ----------------------------HEADER-------- */
 header {
     display: flex;
-    justify-content: flex-end;
-}
-  header nav {
-    font-weight: 100;
-    flex-grow: 2;
-    text-decoration: none;
-  }
-  header nav ul {
-    display: flex;
-    margin-left: -2rem;
     justify-content: center;
-    list-style: none;
-    color: black;
-    }
-
-.status {
-    font-size: 1rem;
-    font-weight: bold;
-    position: relative;
-    top: 0.3rem;
-    right: 0.3rem;
-    font-family: 'Slabo 27px', serif;
-    margin-top: 4px;
-
 }
-
-a,
-a:link {
-    height: 0;
-    margin: 0 3px;
-    text-decoration: none;
-    font-size: small;
-    color: black;
-}
-
-.all a:link{
-    color: lightgray;
-}
-
-.logo {
+header .logo {
     font-family: 'Caveat', cursive;
     color: red;
     flex-grow: 1;
-    font-weight: 900;
-    font-size: 2rem;
-    margin: 15px;
+    font-size: 3.5rem;
 }
-
-.five {
+header nav {
+    flex-grow: 2;
+}
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    margin-left: -25rem;
+    justify-content: center;
+}
+header nav li {
+    display: inline;
+    text-align: center;
+    margin: 0 70px 0;
+}
+header nav li a {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    text-decoration: none;
+}
+header nav li a:hover {
+    color: red;
+}
+header .status {
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    right: 0.4rem;
+    font-family: 'Slabo', serif;
+    margin-top: 5px;
+}
+header .five {
+    margin: 0;
     font-size: 1.5rem;
-    height: 28px;
+    height: 30px;
     width: 8px;
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    border: 2px solid orange;
+    border: 1px solid orange;
     padding-right: 13px;
-    padding-left: 13px;
-    padding-top: 4px;
+    padding-left: 10px;
+    cursor: pointer;
 }
-
-h3 {
+header .five:hover{
+    background-color: orange;
+}
+/* ------------------------TITLE--------- */
+h1 {
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Slabo', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
-
+/* -------------------------SEARCH BAR------- */
 .search {
     display: flex;
     justify-content: center;
 }
-
 .search input {
     text-align: right;
-    display: flex;
-    line-height: 10px;
-    font-size: 1rem;
+    display: flex;   
+    font-size: 1.3rem;
+    width: 25rem;
+    border-right: none;
+    border-left: none;
+    border-top: none;  
 }
-
-main {
-    width: 100vw;
-    height: 85vh;
+::placeholder{
+    color: red;
 }
-
-#container {
+/* ----------------------------MAIN ------*/
+#container {  
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    margin: 2rem;
+    gap: 4rem;
+    margin: 1.5rem 20rem;
 }
-
 .card {
-    width: 15rem;
-
-   height: 10rem;
-
-    font-size: 2em;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-
 button {
     background-color: yellow;
-    width: 8rem;
-    height: 2rem;
+    padding: 10px 30px;
+    border: none;
+}
+button:hover {
+    background-color: red;
+}
+.sold {
+    color: rgba(0, 0, 0, 0.514);
+}
+.sold:hover {
+    background-color: aqua;
+}
+h6 {
+    font-size: 1.2rem;   
+    font-weight: 500;
+}
+p {
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
